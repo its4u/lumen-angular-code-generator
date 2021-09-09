@@ -1,10 +1,10 @@
 <?php
 /**
  * @file
- * Contains \biliboobrian\lumenAngularCodeGenerator\Model\MicroServiceExtendModel.
+ * Contains \its4u\lumenAngularCodeGenerator\Model\MicroServiceExtendModel.
  */
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
 use biliboobrian\MicroServiceModelUtils\Models\MicroServiceBaseOracleModel;
 

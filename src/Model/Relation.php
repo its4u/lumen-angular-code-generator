@@ -1,12 +1,12 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
-use biliboobrian\lumenAngularCodeGenerator\Config;
+use its4u\lumenAngularCodeGenerator\Config;
 
 /**
  * Class Relation
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 abstract class Relation
 {

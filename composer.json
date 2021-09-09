@@ -1,11 +1,11 @@
 {
-    "name": "biliboobrian/lumen-angular-code-generator",
+    "name": "its4u/lumen-angular-code-generator",
     "description": "Model, controller, provider and service generator for Lumen 5+ and Angular 6+ from DB schema",
     "keywords": ["code generator", "scaffolding", "lumen", "angular", "model", "controller", "service", "provider"],
     "license": "MIT",
     "autoload": {
       "psr-4": {
-        "biliboobrian\\lumenAngularCodeGenerator\\": "src/"
+        "its4u\\lumenAngularCodeGenerator\\": "src/"
       }
     },
     "require": {
@@ -14,9 +14,9 @@
       "laravel/lumen-framework": "5.* || 6.* || 7.* || 8.*"
     },
     "authors": [{ 
-        "name": "biliboobrian", 
-        "email": "biliboobrian@yahoo.fr"
+        "name": "its4u", 
+        "email": "contact@its4u.com"
     }],
-    "version": "1.0.37",
+    "version": "1.0.38",
     "minimum-stability": "dev"
   }

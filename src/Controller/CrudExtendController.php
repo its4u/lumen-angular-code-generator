@@ -1,6 +1,6 @@
 <?php 
 
-namespace biliboobrian\lumenAngularCodeGenerator\Controller;
+namespace its4u\lumenAngularCodeGenerator\Controller;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

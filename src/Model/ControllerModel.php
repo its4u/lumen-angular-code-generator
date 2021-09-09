@@ -1,25 +1,25 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo as EloquentBelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as EloquentBelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany as EloquentHasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne as EloquentHasOne;
 use Illuminate\Support\Str;
-use biliboobrian\lumenAngularCodeGenerator\Model\ClassModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\ClassNameModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\DocBlockModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\MethodModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\UseClassModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\VirtualPropertyModel;
-use biliboobrian\lumenAngularCodeGenerator\Exception\GeneratorException;
-use biliboobrian\lumenAngularCodeGenerator\Helper\ClassHelper;
-use biliboobrian\lumenAngularCodeGenerator\Helper\TitleHelper;
+use its4u\lumenAngularCodeGenerator\Model\ClassModel;
+use its4u\lumenAngularCodeGenerator\Model\ClassNameModel;
+use its4u\lumenAngularCodeGenerator\Model\DocBlockModel;
+use its4u\lumenAngularCodeGenerator\Model\MethodModel;
+use its4u\lumenAngularCodeGenerator\Model\UseClassModel;
+use its4u\lumenAngularCodeGenerator\Model\VirtualPropertyModel;
+use its4u\lumenAngularCodeGenerator\Exception\GeneratorException;
+use its4u\lumenAngularCodeGenerator\Helper\ClassHelper;
+use its4u\lumenAngularCodeGenerator\Helper\TitleHelper;
 
 /**
  * Class ControllerModel
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class ControllerModel extends ClassModel
 {

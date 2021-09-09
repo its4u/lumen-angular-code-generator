@@ -1,11 +1,11 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
 
 /**
  * Class VirtualPropertyModel
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class VirtualPropertyModel extends BasePropertyModel
 {

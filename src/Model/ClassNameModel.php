@@ -1,15 +1,15 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
-use biliboobrian\lumenAngularCodeGenerator\Exception\ValidationException;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\AbstractModifierTrait;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\FinalModifierTrait;
-use biliboobrian\lumenAngularCodeGenerator\RenderableModel;
+use its4u\lumenAngularCodeGenerator\Exception\ValidationException;
+use its4u\lumenAngularCodeGenerator\Model\Traits\AbstractModifierTrait;
+use its4u\lumenAngularCodeGenerator\Model\Traits\FinalModifierTrait;
+use its4u\lumenAngularCodeGenerator\RenderableModel;
 
 /**
  * Class Name
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class ClassNameModel extends RenderableModel
 {

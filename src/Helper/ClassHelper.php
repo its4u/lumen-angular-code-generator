@@ -1,10 +1,10 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Helper;
+namespace its4u\lumenAngularCodeGenerator\Helper;
 
 /**
  * Class ClassHelper
- * @package biliboobrian\lumenAngularCodeGenerator\Helper
+ * @package its4u\lumenAngularCodeGenerator\Helper
  */
 class ClassHelper
 {

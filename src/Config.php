@@ -1,12 +1,12 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator;
+namespace its4u\lumenAngularCodeGenerator;
 
-use biliboobrian\lumenAngularCodeGenerator\Exception\GeneratorException;
+use its4u\lumenAngularCodeGenerator\Exception\GeneratorException;
 
 /**
  * Class Config
- * @package biliboobrian\lumenAngularCodeGenerator
+ * @package its4u\lumenAngularCodeGenerator
  */
 class Config
 {

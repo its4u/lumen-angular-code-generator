@@ -1,26 +1,26 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
 use Illuminate\Support\Str;
-use biliboobrian\lumenAngularCodeGenerator\Helper\ClassHelper;
-use biliboobrian\lumenAngularCodeGenerator\Helper\TitleHelper;
-use biliboobrian\lumenAngularCodeGenerator\Model\ClassModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\MethodModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\DocBlockModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\PropertyModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\ClassNameModel;
+use its4u\lumenAngularCodeGenerator\Helper\ClassHelper;
+use its4u\lumenAngularCodeGenerator\Helper\TitleHelper;
+use its4u\lumenAngularCodeGenerator\Model\ClassModel;
+use its4u\lumenAngularCodeGenerator\Model\MethodModel;
+use its4u\lumenAngularCodeGenerator\Model\DocBlockModel;
+use its4u\lumenAngularCodeGenerator\Model\PropertyModel;
+use its4u\lumenAngularCodeGenerator\Model\ClassNameModel;
 use Illuminate\Database\Eloquent\Relations\HasOne as EloquentHasOne;
-use biliboobrian\lumenAngularCodeGenerator\Model\ImportClassModel;
+use its4u\lumenAngularCodeGenerator\Model\ImportClassModel;
 use Illuminate\Database\Eloquent\Relations\HasMany as EloquentHasMany;
-use biliboobrian\lumenAngularCodeGenerator\Exception\GeneratorException;
-use biliboobrian\lumenAngularCodeGenerator\Model\VirtualPropertyModel;
+use its4u\lumenAngularCodeGenerator\Exception\GeneratorException;
+use its4u\lumenAngularCodeGenerator\Model\VirtualPropertyModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo as EloquentBelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as EloquentBelongsToMany;
 
 /**
  * Class AngularModel
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class AngularModel extends ClassModel
 {
@@ -66,7 +66,7 @@ class AngularModel extends ClassModel
         $cn = new ClassNameModel($className, $baseClassName, 'angular');
         $this->setName($cn);
 
-        $this->addImport(new ImportClassModel($baseClassName .', CrudService, CrudColumn', '@biliboobrian/angular-crud'));
+        $this->addImport(new ImportClassModel($baseClassName .', CrudService, CrudColumn', '@its4u/angular-crud'));
         
         $this->tableName = $tableName ?: TitleHelper::getDefaultTableName($className);
 

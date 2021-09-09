@@ -1,13 +1,13 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\ValueTrait;
-use biliboobrian\lumenAngularCodeGenerator\RenderableModel;
+use its4u\lumenAngularCodeGenerator\Model\Traits\ValueTrait;
+use its4u\lumenAngularCodeGenerator\RenderableModel;
 
 /**
  * Class PHPClassConstant
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class ConstantModel extends RenderableModel
 {

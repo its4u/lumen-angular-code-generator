@@ -1,16 +1,16 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Command;
+namespace its4u\lumenAngularCodeGenerator\Command;
 
 use Illuminate\Console\Command;
-use biliboobrian\lumenAngularCodeGenerator\Config;
+use its4u\lumenAngularCodeGenerator\Config;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use biliboobrian\lumenAngularCodeGenerator\AngularGenerator;
+use its4u\lumenAngularCodeGenerator\AngularGenerator;
 
 /**
  * Class GenerateAngularModelCommand
- * @package biliboobrian\lumenAngularCodeGenerator\Command
+ * @package its4u\lumenAngularCodeGenerator\Command
  */
 class GenerateAngularModelCommand extends Command
 {

@@ -15,9 +15,9 @@ if (! function_exists('app_path')) {
 return [
     'lumen_model_namespace'       			=> 'App\Models',
     'lumen_ctrl_namespace'       			=> 'App\Http\Controllers',
-    'base_class_lumen_model_name' 			=> \biliboobrian\lumenAngularCodeGenerator\Model\MicroServiceExtendModel::class,
-    'base_class_lumen_model_oracle_name' 	=> \biliboobrian\lumenAngularCodeGenerator\Model\MicroServiceExtendOracleModel::class,
-    'base_class_lumen_ctrl_name' 			=> \biliboobrian\lumenAngularCodeGenerator\Controller\CrudExtendController::class,
+    'base_class_lumen_model_name' 			=> \its4u\lumenAngularCodeGenerator\Model\MicroServiceExtendModel::class,
+    'base_class_lumen_model_oracle_name' 	=> \its4u\lumenAngularCodeGenerator\Model\MicroServiceExtendOracleModel::class,
+    'base_class_lumen_ctrl_name' 			=> \its4u\lumenAngularCodeGenerator\Controller\CrudExtendController::class,
     'lumen_model_output_path'     			=> app_path() . '/Models',
     'lumen_ctrl_output_path'      			=> app_path() . '/Http/Controllers',
     'base_class_angular_model_name' 		=> 'BaseModel',

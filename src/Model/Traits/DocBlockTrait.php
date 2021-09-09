@@ -1,12 +1,12 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model\Traits;
+namespace its4u\lumenAngularCodeGenerator\Model\Traits;
 
-use biliboobrian\lumenAngularCodeGenerator\Model\DocBlockModel;
+use its4u\lumenAngularCodeGenerator\Model\DocBlockModel;
 
 /**
  * Trait DocBlockTrait
- * @package biliboobrian\lumenAngularCodeGenerator\Model\Traits
+ * @package its4u\lumenAngularCodeGenerator\Model\Traits
  */
 trait DocBlockTrait
 {

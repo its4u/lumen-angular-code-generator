@@ -1,10 +1,10 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator;
+namespace its4u\lumenAngularCodeGenerator;
 
 /**
  * Interface LineableInterface
- * @package biliboobrian\lumenAngularCodeGenerator
+ * @package its4u\lumenAngularCodeGenerator
  */
 interface LineableInterface
 {

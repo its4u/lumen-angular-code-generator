@@ -1,23 +1,23 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator;
+namespace its4u\lumenAngularCodeGenerator;
 
 use Doctrine\DBAL\Schema\Table;
 use Illuminate\Database\DatabaseManager;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use biliboobrian\lumenAngularCodeGenerator\Model\HasOne;
-use biliboobrian\lumenAngularCodeGenerator\Model\HasMany;
-use biliboobrian\lumenAngularCodeGenerator\Model\BelongsTo;
-use biliboobrian\lumenAngularCodeGenerator\Model\MethodModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\ArgumentModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\BelongsToMany;
-use biliboobrian\lumenAngularCodeGenerator\Model\DocBlockModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\PropertyModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\NamespaceModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\ControllerModel;
-use biliboobrian\lumenAngularCodeGenerator\Model\VirtualPropertyModel;
-use biliboobrian\lumenAngularCodeGenerator\Exception\GeneratorException;
-use biliboobrian\lumenAngularCodeGenerator\Model\UseClassModel;
+use its4u\lumenAngularCodeGenerator\Model\HasOne;
+use its4u\lumenAngularCodeGenerator\Model\HasMany;
+use its4u\lumenAngularCodeGenerator\Model\BelongsTo;
+use its4u\lumenAngularCodeGenerator\Model\MethodModel;
+use its4u\lumenAngularCodeGenerator\Model\ArgumentModel;
+use its4u\lumenAngularCodeGenerator\Model\BelongsToMany;
+use its4u\lumenAngularCodeGenerator\Model\DocBlockModel;
+use its4u\lumenAngularCodeGenerator\Model\PropertyModel;
+use its4u\lumenAngularCodeGenerator\Model\NamespaceModel;
+use its4u\lumenAngularCodeGenerator\Model\ControllerModel;
+use its4u\lumenAngularCodeGenerator\Model\VirtualPropertyModel;
+use its4u\lumenAngularCodeGenerator\Exception\GeneratorException;
+use its4u\lumenAngularCodeGenerator\Model\UseClassModel;
 
 class ControllerBuilder
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator;
+namespace its4u\lumenAngularCodeGenerator;
 
-use biliboobrian\lumenAngularCodeGenerator\Model\ClassModel;
-use biliboobrian\lumenAngularCodeGenerator\ControllerBuilder;
-use biliboobrian\lumenAngularCodeGenerator\Exception\GeneratorException;
+use its4u\lumenAngularCodeGenerator\Model\ClassModel;
+use its4u\lumenAngularCodeGenerator\ControllerBuilder;
+use its4u\lumenAngularCodeGenerator\Exception\GeneratorException;
 
 /**
  * Class AngularGenerator
- * @package biliboobrian\lumenAngularCodeGenerator
+ * @package its4u\lumenAngularCodeGenerator
  */
 class AngularGenerator
 {

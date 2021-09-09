@@ -1,10 +1,10 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model\Traits;
+namespace its4u\lumenAngularCodeGenerator\Model\Traits;
 
 /**
  * Trait FinalModifierTrait
- * @package biliboobrian\lumenAngularCodeGenerator\Model\Traits
+ * @package its4u\lumenAngularCodeGenerator\Model\Traits
  */
 trait FinalModifierTrait
 {

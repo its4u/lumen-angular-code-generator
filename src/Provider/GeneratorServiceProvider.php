@@ -1,21 +1,21 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Provider;
+namespace its4u\lumenAngularCodeGenerator\Provider;
 
 use Illuminate\Support\ServiceProvider;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateLumenModelCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateLumenModelsCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateLumenControllerCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateLumenControllersCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateLumenBulkControllerCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateLumenRoutesCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateAngularModelCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateAngularModelsCommand;
-use biliboobrian\lumenAngularCodeGenerator\Command\GenerateLumenSwaggerInfoCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateLumenModelCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateLumenModelsCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateLumenControllerCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateLumenControllersCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateLumenBulkControllerCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateLumenRoutesCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateAngularModelCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateAngularModelsCommand;
+use its4u\lumenAngularCodeGenerator\Command\GenerateLumenSwaggerInfoCommand;
 
 /**
  * Class GeneratorServiceProvider
- * @package biliboobrian\lumenAngularCodeGenerator\Provider
+ * @package its4u\lumenAngularCodeGenerator\Provider
  */
 class GeneratorServiceProvider extends ServiceProvider
 {

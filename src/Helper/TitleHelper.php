@@ -1,11 +1,11 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Helper;
+namespace its4u\lumenAngularCodeGenerator\Helper;
 use Illuminate\Support\Str;
 
 /**
  * Class TitleHelper
- * @package biliboobrian\lumenAngularCodeGenerator\Helper
+ * @package its4u\lumenAngularCodeGenerator\Helper
  */
 class TitleHelper
 {

@@ -1,5 +1,5 @@
 <?php
-namespace biliboobrian\lumenAngularCodeGenerator\Observer;
+namespace its4u\lumenAngularCodeGenerator\Observer;
 
 use Illuminate\Support\Facades\Cache;
 use biliboobrian\MicroServiceModelUtils\Contracts\Cacheable;
@@ -8,7 +8,7 @@ use biliboobrian\MicroServiceModelUtils\Traits\MicroServiceCacheTrait;
 /**
  * Observer class to act on CRUD item modifications.
  *
- * @package biliboobrian\lumenAngularCodeGenerator\Observer.
+ * @package its4u\lumenAngularCodeGenerator\Observer.
  */
 class CrudExtendObserver
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
-use biliboobrian\lumenAngularCodeGenerator\Exception\GeneratorException;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\DocBlockTrait;
-use biliboobrian\lumenAngularCodeGenerator\RenderableModel;
+use its4u\lumenAngularCodeGenerator\Exception\GeneratorException;
+use its4u\lumenAngularCodeGenerator\Model\Traits\DocBlockTrait;
+use its4u\lumenAngularCodeGenerator\RenderableModel;
 
 /**
  * Class ClassModel
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class ClassModel extends RenderableModel
 {

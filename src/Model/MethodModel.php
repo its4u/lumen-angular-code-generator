@@ -1,17 +1,17 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
-use biliboobrian\lumenAngularCodeGenerator\Exception\ValidationException;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\AbstractModifierTrait;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\AccessModifierTrait;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\DocBlockTrait;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\FinalModifierTrait;
-use biliboobrian\lumenAngularCodeGenerator\Model\Traits\StaticModifierTrait;
+use its4u\lumenAngularCodeGenerator\Exception\ValidationException;
+use its4u\lumenAngularCodeGenerator\Model\Traits\AbstractModifierTrait;
+use its4u\lumenAngularCodeGenerator\Model\Traits\AccessModifierTrait;
+use its4u\lumenAngularCodeGenerator\Model\Traits\DocBlockTrait;
+use its4u\lumenAngularCodeGenerator\Model\Traits\FinalModifierTrait;
+use its4u\lumenAngularCodeGenerator\Model\Traits\StaticModifierTrait;
 
 /**
  * Class PHPClassMethod
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class MethodModel extends BaseMethodModel
 {

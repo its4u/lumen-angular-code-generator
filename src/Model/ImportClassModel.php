@@ -1,12 +1,12 @@
 <?php
 
-namespace biliboobrian\lumenAngularCodeGenerator\Model;
+namespace its4u\lumenAngularCodeGenerator\Model;
 
-use biliboobrian\lumenAngularCodeGenerator\RenderableModel;
+use its4u\lumenAngularCodeGenerator\RenderableModel;
 
 /**
  * Class ImportClassModel
- * @package biliboobrian\lumenAngularCodeGenerator\Model
+ * @package its4u\lumenAngularCodeGenerator\Model
  */
 class ImportClassModel extends RenderableModel
 {
